@@ -44,7 +44,7 @@ module.exports = function (grunt) {
       }
 
       if (grunt.config.get('requirejs').options) {
-        config = util.extend(config, grunt.config.get('requirejs').options);
+        config = util._.extend(config, grunt.config.get('requirejs').options);
       }
     }
 
